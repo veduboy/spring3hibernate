@@ -1,4 +1,4 @@
-@Library('ot-jenkinJava-pipeline@master')
+@Library('ot-jenkinJava-pipeline@master') _
 
 def codeUtils = new org.opstree.java.javaCodePipeline()
 //def git_url                = https://github.com/veduboy/spring3hibernate
