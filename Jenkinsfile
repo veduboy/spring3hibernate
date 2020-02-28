@@ -4,7 +4,7 @@ def codeUtils = new org.opstree.java.javaCodePipeline()
 
 node{
   codeUtils.call(
-git_url                = https://github.com/veduboy/spring3hibernate.git
+git_url                = https://github.com/veduboy/spring3hibernate
 git_branch             = master
 java_version           = java8
 project_name           = spring3hibernate
