@@ -12,7 +12,6 @@ project_dir            = opstree/webapp
 code_build             = true
 commit_validation      = true
 unit_test              = true
-junit_report_path      = target/surefire-reports/*.xml
 code_coverage          = true
 cobertura_report_path  = target/site/cobertura/coverage.xml
 coverage_percentage    = 80
@@ -39,7 +38,7 @@ upload_region          = us-east-1
 source_file            = *.war
 recipients             = vedansh.pachori@opstree.com
 notification_method    = slack
-
+junit_report_path      = target/surefire-reports/*.xml
 
 	)
 }
